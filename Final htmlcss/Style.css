@@ -1,0 +1,285 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "kumbhSans" sans-serif;
+}
+
+/* header */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid #f7f8fd 2px;
+}
+
+.logo {
+  width: 160px;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 112px;
+  width: 750px;
+}
+.modernbar {
+  position: relative;
+  text-decoration: none;
+  color: #68707d;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+.modernbar:after {
+  content: "";
+  position: absolute;
+  background-color: #ff7d1a;
+  height: 3px;
+  width: 0;
+  bottom: -50px;
+  transition: 0.4s;
+  left: 0;
+}
+.modernbar:hover {
+  color: #ff7d1a;
+}
+.modernbar:hover:after {
+  width: 100%;
+}
+.icons-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+}
+.icons-right:hover {
+  cursor: pointer;
+}
+
+/* main container  */
+.main-container {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+.small-pictures {
+  display: flex;
+  justify-content: space-between;
+}
+.texts {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+.sneaker .menscollection {
+  color: #ff7d1a;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.big-letters {
+  font-size: 44px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #1d2025;
+  padding: 20px 0px 20px 0px;
+}
+.paragrap {
+  color: #68707d;
+}
+.pricings {
+  display: flex;
+  gap: 16px;
+  margin-top: 50px;
+}
+.mainprice {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #1d2025;
+}
+.smallprice {
+  background-color: #ffede0;
+  width: 51px;
+  height: 27px;
+  border-radius: 5px;
+  color: #ff7d1a;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}
+.previousprice {
+  font-weight: 700;
+  color: #1d2025;
+  font-size: 16px;
+  text-decoration: line-through;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+}
+
+.chart-container {
+  display: flex;
+  margin-top: 100px;
+  gap: 15px;
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  width: 157px;
+  height: 55px;
+  padding: 10px 16px;
+  gap: 10px;
+  background-color: #f7f8fd;
+  border-radius: 10px;
+  align-items: center;
+}
+.plusminus {
+  color: #ff7d1a;
+  width: 12px;
+  font-weight: 700;
+}
+.number3 {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.addtochart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 77px;
+  gap: 10px;
+  background-color: #ff7d1a;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px #ffede0;
+  color: white;
+}
+/* collections senction */
+.collectionsbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collectionpictures {
+  display: flex;
+  background-color: #f7f8fd;
+  width: 850px;
+  border-radius: 20px;
+  align-items: center;
+  height: 300px;
+  border: solid 1px #ff7d1a;
+  margin: 25px;
+  box-shadow: #ff7d1a 0px 0px 15px 0px;
+}
+.detailedshop {
+  margin: 0px 30px 0 30px;
+}
+.orangeboypic {
+  border-radius: 20px;
+}
+.menscollection {
+  text-decoration: none;
+  color: #68707d;
+}
+.manclothes-container {
+  height: 600px;
+  background-color: #1d2025;
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: #ff7d1a solid;
+}
+
+.detailedmanclothes {
+  display: flex;
+  width: 260px;
+  height: 380px;
+  background-color: #f7f8fd;
+  border: solid 1px #ff7d1a;
+  box-shadow: #ff7d1a 0px 0px 15px 0px;
+  cursor: pointer;
+}
+.lastchance-container {
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  align-items: center;
+  color: #ff7d1a;
+  border-top: #ff7d1a solid;
+  border-bottom: #ff7d1a solid;
+}
+/* aboutus page */
+.aboutus-container {
+  background-image: url("./ipados-stock-orange-white-background-ipad-ios-13-hd-2880x1800-1551.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+.aboutus-texts {
+  color: #1d2025;
+  margin: 50px;
+  width: 300px;
+}
+.aboutus-texts2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 77px;
+  background-color: #ff7d1a;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px #ffede0;
+  color: rgb(245, 238, 238);
+  width: 250px;
+  text-decoration: none;
+  margin: 50px;
+}
+.aboutus-detailed {
+  color: #ff7d1a;
+  font-size: 55px;
+}
+
+/* Contactus page */
+.contactus-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.contactpage {
+  width: 800px;
+  height: 700px;
+  background-color: #ff7d1a;
+  box-shadow: #ff7d1a 0px 0px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.field {
+  width: 400px;
+  height: 50px;
+  padding: 10px 50px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.field-textarea {
+  width: 400px;
+  padding: 20px 50px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.contactus {
+  color: #ffffff;
+  margin-bottom: 50px;
+  font-size: 36px;
+}
